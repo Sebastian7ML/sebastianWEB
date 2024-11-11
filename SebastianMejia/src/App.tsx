@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import reactLogo from './assets/sm.svg'
+import logo from './assets/sm.svg'
 import './App.css'
 
 function App() {
@@ -10,12 +10,12 @@ function App() {
       <div>
         
         <a href="https://github.com/Sebastian7ML" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
+          <img src={logo} className="logo" alt="Sebas logo" />
         </a>
       </div>
       <h1>Sebastian Mejia</h1>
       <h2>Software Engineer & Avionics Technician</h2>
-      <h3>// Tech Enthusiast</h3>
+      <h3>// in short: Tech Enthusiast</h3>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
