@@ -1,0 +1,30 @@
+.picture-row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Allows wrapping to new lines on smaller screens */
+}
+
+.picture {
+    flex: 1 1 30%;
+    max-width: 30%;
+    height: auto;
+    border: 1px solid #ccc;
+    padding: 5px;
+    box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+}
+
+/* Media query for screens smaller than 600px */
+@media (max-width: 600px) {
+    .picture {
+        flex: 1 1 90%;
+        max-width: 90%;
+    }
+}
+
+/* Media query for screens smaller than 900px */
+@media (max-width: 900px) {
+    .picture {
+        flex: 1 1 45%;
+        max-width: 45%;
+    }
+}
