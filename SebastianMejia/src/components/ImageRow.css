@@ -1,0 +1,33 @@
+.image-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  .image-row img {
+    width: 100%;
+    max-width: 200px;
+    height: 200px; /* Set a fixed height */
+    object-fit: cover; /* Ensures images are resized to cover the specified dimensions */
+    margin: 10px;
+    flex: 1 1 calc(33.33% - 20px);
+  } 
+  
+   @media (max-width: 768px) {
+    .image-row img {
+      flex: 1 1 calc(50% - 20px);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .image-row img {
+      flex: 1 1 100%;
+    }
+  }
+  
+
+
+  

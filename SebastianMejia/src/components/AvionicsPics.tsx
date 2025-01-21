@@ -5,6 +5,7 @@ interface AvionicsPicsProps {
     images: string[];
 }
 
+
 const AvionicsPics: React.FC<AvionicsPicsProps> = ({ images }) => {
     return (
         <div className="picture-row">
@@ -16,3 +17,5 @@ const AvionicsPics: React.FC<AvionicsPicsProps> = ({ images }) => {
 };
 
 export default AvionicsPics;
+
+
