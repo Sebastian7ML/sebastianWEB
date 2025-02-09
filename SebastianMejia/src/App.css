@@ -18,6 +18,25 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+h4{
+  text-align: start;
+}
+
+p{
+text-align: center;
+color: rgba(125, 125, 125, 0.995);
+padding: 1rem;
+}
+
+.gulf-link {
+  color: rgb(191, 3, 3); 
+  text-decoration: none; 
+}
+
+.gulf-link:hover {
+  color: darkred; 
+}
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
