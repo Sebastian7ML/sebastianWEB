@@ -18,14 +18,38 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+.avionics-container {
+  margin: 0;
+  height: max-content;
+  position: relative;
+  padding: 2rem;
+overflow: visible; /* Ensure child elements are not clipped */
+}
+
+.lateral-title-container {
+  display:flex;
+  align-items:center;
+  height: 50%; /*Full height of the viewport */
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
 h4{
-  text-align: start;
+  writing-mode: vertical-rl; /* Vertical text */
+  transform: rotate(180deg); /* Rotate to make it readable from bottom to top */
+  font-size: 26px;
+  font-weight: bold;
+  color: rgb(136, 136, 136);
+  margin-left: 0;
+  background-color: #f0f0f000;
+  border-right: 2px solid #cccccc00;
 }
 
 p{
 text-align: center;
 color: rgba(125, 125, 125, 0.995);
-padding: 1rem;
+padding: 0.7rem;
 }
 
 .gulf-link {

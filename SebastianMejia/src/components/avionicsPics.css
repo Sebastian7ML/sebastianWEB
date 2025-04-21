@@ -9,15 +9,16 @@
     max-width: 30%;
     height: auto;
     /* border: 1px solid #cccccc72; */
-    padding: 5px;
+    padding: 3px;
     box-sizing: border-box; /* Includes padding and border in the element's total width and height */
-    border-radius: 3px;
+    border-radius: 0.7rem;
 }
 
 .picture:hover {
     transform: scale(1.1); /* Aumenta el tamaño de la imagen */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Añade sombra */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Suaviza la transición */
+    transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease; /* Suaviza la transición */
+filter: brightness(1.2) saturate(1.5); /* Añade un efecto de brillo y saturación */
 }
 
 

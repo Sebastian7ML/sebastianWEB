@@ -19,15 +19,16 @@ nav a {
     padding: 0.7rem;
     border-radius: 50%;
     display: flex;
-    color: azure;
+    color: rgb(101, 101, 101);
     font-size: 1.1rem;
 }
 
 nav a:hover {
     background: rgba(0, 0, 0, 0.3);
+    color: rgb(0, 107, 125);
 }
 
 nav a.active {
     background-color: black;
-    color: rgb(0, 114, 129);
+    color: rgb(0, 92, 104);
 }
