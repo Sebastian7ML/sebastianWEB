@@ -8,6 +8,7 @@ import image1 from './assets/bell.jpg';
 import image2 from './assets/ec.jpg';
 import ImageInfoCard from './components/ImageInfoCard';
 import Footer from './components/Footer';
+import WhatsAppButton from './components/WhatsAppButton';
 
 const avionicsImages = [
   'https://i.postimg.cc/wTDPqKxn/bo.jpg',
@@ -55,6 +56,7 @@ function App() {
       
       <Nav />
       <Footer />
+      <WhatsAppButton />
       {/* <Emigration imgSrc="../emi.png" imgAlt="colombia-españa" /> */}
       {/* <ImageRow /> */}
     </>
