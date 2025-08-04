@@ -1,11 +1,9 @@
 import logo from './assets/sm.svg'
 import './App.css'
 import AvionicsPics from './components/AvionicsPics';
-import ImageRow from './components/ImageRow';
 import Nav from './components/Nav';
-import Emigration from './components/Emigration';
-import image1 from './assets/bell.jpg';
-import image2 from './assets/ec.jpg';
+import image1 from './assets/student.jpg';
+import image2 from './assets/cfac.jpg';
 import ImageInfoCard from './components/ImageInfoCard';
 import Footer from './components/Footer';
 import WhatsAppButton from './components/WhatsAppButton';
@@ -41,15 +39,15 @@ function App() {
       </div>
 
       <ImageInfoCard
-        title="Our Coffee"
-        description="We source our coffee beans from the finest farms."
+        title="Software Engineer"
+        description="While I was working on configuring and updating software in Garmin avionics suites, my curiosity began to grow and I decided to start studying engineering."
         image={image1}
         fromRight={false} // Set to true to position the first image on the right
       />
 
       <ImageInfoCard
-        title="Our Process"
-        description="We roast our beans to perfection."
+        title="Expatriate"
+        description="Just after my graduation, I embarked on a new adventure with my family — Spain was our destination. I currently work at Sabadell Airport, an airfield located north of Barcelona. I'm in charge of the technical office at C.F.A.C, S.L., where we perform maintenance on aircraft such as Cessna, Piper, and Robinson helicopters. We also inspect and repair Lycoming and Continental engines, as well as their components."
         image={image2}
         fromRight={true} // Set to false to position the second image on the left
       />
