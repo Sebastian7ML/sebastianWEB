@@ -7,6 +7,7 @@ import image2 from './assets/cfac.jpg';
 import ImageInfoCard from './components/ImageInfoCard';
 import Footer from './components/Footer';
 import WhatsAppButton from './components/WhatsAppButton';
+import ContactForm from './components/ContactForm';
 
 const avionicsImages = [
   'https://i.postimg.cc/wTDPqKxn/bo.jpg',
@@ -53,6 +54,7 @@ function App() {
       />
       
       <Nav />
+      <ContactForm formspreeEndpoint="https://formspree.io/f/xldljgbz" />
       <Footer />
       <WhatsAppButton />
       {/* <Emigration imgSrc="../emi.png" imgAlt="colombia-españa" /> */}
