@@ -54,7 +54,7 @@ function App() {
       />
       
       <Nav />
-      <ContactForm formspreeEndpoint="https://formspree.io/f/xldljgbz" />
+      <ContactForm formspreeEndpoint="https://formspree.io/f/mdkdwdza" />
       <Footer />
       <WhatsAppButton />
       {/* <Emigration imgSrc="../emi.png" imgAlt="colombia-españa" /> */}

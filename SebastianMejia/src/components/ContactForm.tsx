@@ -37,6 +37,9 @@ const ContactForm: React.FC<ContactFormProps> = ({ formspreeEndpoint }) => {
   };
 
   return (
+    <div className="contact-form-container">
+      <h2>Contact Me</h2>
+      <p>If you have any questions or just want to say hi, feel free to reach out!</p>  
     <form onSubmit={handleSubmit} className="contact-form">
       {status === 'success' && <p className="success-message">Thanks for your message! We'll be in touch soon.</p>}
       {status === 'error' && <p className="error-message">Oops! There was an error submitting your form.</p>}
@@ -76,6 +79,7 @@ const ContactForm: React.FC<ContactFormProps> = ({ formspreeEndpoint }) => {
 
       <button type="submit" className="submit-button">Submit</button>
     </form>
+    </div>
   );
 };
 
