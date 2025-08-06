@@ -1,4 +1,5 @@
-import logo from './assets/sm.svg'
+// import logo from './assets/sm.svg'
+import HeroSection from './components/HeroSection';
 import './App.css'
 import AvionicsPics from './components/AvionicsPics';
 import Nav from './components/Nav';
@@ -8,6 +9,7 @@ import ImageInfoCard from './components/ImageInfoCard';
 import Footer from './components/Footer';
 import WhatsAppButton from './components/WhatsAppButton';
 import ContactForm from './components/ContactForm';
+import ProfessionalVideoPlayer from './components/ProfessionalVideoPlayer';
 
 const avionicsImages = [
   'https://i.postimg.cc/wTDPqKxn/bo.jpg',
@@ -19,14 +21,7 @@ function App() {
 
   return (
     <>
-      <div>
-        <a href="https://github.com/Sebastian7ML" target="_blank">
-          <img src={logo} className="logo" alt="Sebas logo" />
-        </a>
-      </div>
-      <h1>Sebastian Mejia</h1>
-      <h2>Software Engineer & Avionics Technician</h2>
-      <h3>// in short: Tech Enthusiast</h3>
+      <HeroSection />
 
       <div className='avionics-container'>
         <AvionicsPics images={avionicsImages} />
@@ -57,8 +52,7 @@ function App() {
       <ContactForm formspreeEndpoint="https://formspree.io/f/mdkdwdza" />
       <Footer />
       <WhatsAppButton />
-      {/* <Emigration imgSrc="../emi.png" imgAlt="colombia-españa" /> */}
-      {/* <ImageRow /> */}
+     
     </>
   )
 

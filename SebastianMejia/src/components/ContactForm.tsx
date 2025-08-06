@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './ContactForm.css';
+import { Drone } from 'lucide-react';
 
 interface ContactFormProps {
   formspreeEndpoint: string;
@@ -38,7 +39,7 @@ const ContactForm: React.FC<ContactFormProps> = ({ formspreeEndpoint }) => {
 
   return (
     <div className="contact-form-container">
-      <h2>Contact Me</h2>
+      <h3>Contact Me</h3>
       <p>If you have any questions or just want to say hi, feel free to reach out!</p>  
     <form onSubmit={handleSubmit} className="contact-form">
       {status === 'success' && <p className="success-message">Thanks for your message! We'll be in touch soon.</p>}
@@ -77,7 +78,11 @@ const ContactForm: React.FC<ContactFormProps> = ({ formspreeEndpoint }) => {
         ></textarea>
       </div>
 
-      <button type="submit" className="submit-button">Submit</button>
+      <button type="submit" className="submit-button">
+        Submit
+        <Drone className="drone-icon" />
+      </button>
+      
     </form>
     </div>
   );
