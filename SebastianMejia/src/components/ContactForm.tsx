@@ -39,7 +39,7 @@ const ContactForm: React.FC<ContactFormProps> = ({ formspreeEndpoint }) => {
 
   return (
     <div className="contact-form-container">
-      <h3>Contact Me</h3>
+      <h3 id='contact'>Contact Me</h3>
       <p>If you have any questions or just want to say hi, feel free to reach out!</p>  
     <form onSubmit={handleSubmit} className="contact-form">
       {status === 'success' && <p className="success-message">Thanks for your message! We'll be in touch soon.</p>}

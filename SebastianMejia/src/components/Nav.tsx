@@ -31,7 +31,7 @@ export const Nav: React.FC = () => {
         <GiHelicopter />
       </a>
       <a
-        href='#keyboard'
+        href='#contact'
         className={activeLink === '#keyboard' ? 'active' : ''}
         onClick={() => handleLinkClick('#keyboard')}
       >

@@ -8,8 +8,9 @@
 
 .social-icons {
   display: flex;
-  justify-content: center;
-  gap: 2rem;
+  justify-content: start;
+  margin-left: 3rem;
+  gap: 1.5rem;
   margin-bottom: 1rem;
 }
 
@@ -26,6 +27,7 @@
 
 .footer-text {
   color: #666;
-  text-align: center;
+  text-align: start;
+  margin-left: 2rem;
   font-size: 0.9rem;
 }
